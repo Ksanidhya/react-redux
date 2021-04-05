@@ -3,7 +3,6 @@ import React from 'react'
 function Home(props) {
     return (
         <div>
-           
             <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
@@ -12,7 +11,7 @@ function Home(props) {
                 <div className="text-wrapper item">
                     <span>
                         I-Phone
-                    </span>
+                    </span><br/>
                     <span>
                         Price: $1000.00
                     </span>
@@ -23,6 +22,11 @@ function Home(props) {
                         ()=>{props.addToCartHandler({pice:1000,name:'i phone 11'})}
                         }>
                         Add To Cart</button>
+                        <button className="rmv-btn-wrapper"
+                    onClick={
+                        ()=>{props.removeFromCartHandler({pice:1000,name:'i phone 11'})}
+                        }>
+                        Remove From Cart</button>
                 </div>
             </div>
         </div>
