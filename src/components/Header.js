@@ -5,7 +5,7 @@ function Header(props)
     return(
         <div>
              <div className="add-to-cart">
-                <img src="https://loading.io/s/icon/4tk536.svg" />
+                <img src="https://loading.io/s/icon/4tk536.svg" alt="cart"/>
             </div>
         </div>
     )

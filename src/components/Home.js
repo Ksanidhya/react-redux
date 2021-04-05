@@ -7,7 +7,7 @@ function Home(props) {
             <h1>Home Component</h1>
             <div className="cart-wrapper">
                 <div className="img-wrapper item">
-                    <img src="https://www.fdfproject.com/wp-content/uploads/2018/12/iphone-png.png" />
+                    <img src="https://d3nevzfk7ii3be.cloudfront.net/igi/o4OjCNmNeOhvsS1P.standard" alt="phone" />
                 </div>
                 <div className="text-wrapper item">
                     <span>
