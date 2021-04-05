@@ -48,7 +48,6 @@
 }
 .item {
   float: left;
-  display: inline-block;
   width: 120px;
   padding: 20px;
   height: 70px;
