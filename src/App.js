@@ -1,10 +1,10 @@
 import './App.css';
-import User from './User'
+import HomeContainer from './containers/HomeContainer'
 
 function App() {
   return (
     <div className="App">
-     <User data={{name:"kumar sanidhya",Age:'27',email:"kmrsanidhya@gmail.com"}}/>
+      <HomeContainer/>
     </div>
   );
 }
